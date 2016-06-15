@@ -82,7 +82,7 @@ private String thequery;
     private Float radius;
 
     public void onCreate() {
-        Parse.initialize(this, "3DCe29CX1oUSFnaGP09bFB0KM0sYNOR51G3ZYIZK", "VHvjkHJyuRFZ5qwNpIwrGbfIGuFxu1LrXaFoFmvq");
+        Parse.initialize(this, "", "");
         // Also in this method, specify a default Activity to handle push notifications
         PushService.setDefaultPushCallback(this, MyActivity.class);
     }
