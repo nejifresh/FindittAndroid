@@ -1,0 +1,383 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:tools
+		ADDED from AndroidManifest.xml:3:5
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-feature#android.hardware.location
+ADDED from AndroidManifest.xml:7:5
+	android:required
+		ADDED from AndroidManifest.xml:7:60
+	android:name
+		ADDED from AndroidManifest.xml:7:19
+uses-feature#android.hardware.location.gps
+ADDED from AndroidManifest.xml:8:5
+	android:required
+		ADDED from AndroidManifest.xml:8:64
+	android:name
+		ADDED from AndroidManifest.xml:8:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:10:5
+MERGED from com.daimajia.slider:library:1.1.0:8:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:5
+MERGED from com.daimajia.slider:library:1.1.0:7:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:16:6
+	android:name
+		ADDED from AndroidManifest.xml:16:23
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.READ_SMS
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+permission#com.findittlive.finditt.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:30:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:30:17
+	android:name
+		ADDED from AndroidManifest.xml:31:9
+uses-permission#com.findittlive.finditt.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+application
+ADDED from AndroidManifest.xml:34:5
+MERGED from com.google.android.gms:play-services:5.0.89:16:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+MERGED from com.daimajia.slider:library:1.1.0:14:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+	android:label
+		ADDED from AndroidManifest.xml:39:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:36:9
+	android:icon
+		ADDED from AndroidManifest.xml:38:9
+	android:theme
+		ADDED from AndroidManifest.xml:40:9
+	tools:replace
+		ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:35:9
+activity#com.findittlive.finditt.Search.MActivity
+ADDED from AndroidManifest.xml:41:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:43:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:42:9
+	android:name
+		ADDED from AndroidManifest.xml:41:19
+activity#com.findittlive.finditt.Search.SearchResults
+ADDED from AndroidManifest.xml:44:9
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:19
+activity#com.findittlive.finditt.Search.Content
+ADDED from AndroidManifest.xml:47:9
+	android:name
+		ADDED from AndroidManifest.xml:47:19
+activity#com.findittlive.finditt.slidermenu.Signup
+ADDED from AndroidManifest.xml:49:9
+	android:label
+		ADDED from AndroidManifest.xml:49:53
+	android:name
+		ADDED from AndroidManifest.xml:49:19
+activity#com.findittlive.finditt.Search.TopResults
+ADDED from AndroidManifest.xml:50:9
+	android:label
+		ADDED from AndroidManifest.xml:51:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:50:53
+	android:name
+		ADDED from AndroidManifest.xml:50:19
+activity#com.findittlive.finditt.Search.Tab1Activity
+ADDED from AndroidManifest.xml:52:9
+	android:name
+		ADDED from AndroidManifest.xml:52:19
+activity#com.findittlive.finditt.Search.Tab2Activity
+ADDED from AndroidManifest.xml:53:9
+	android:name
+		ADDED from AndroidManifest.xml:53:19
+activity#com.findittlive.finditt.Search.Tab3Activity
+ADDED from AndroidManifest.xml:54:9
+	android:name
+		ADDED from AndroidManifest.xml:54:19
+activity#com.findittlive.finditt.slidermenu.LoginActivity
+ADDED from AndroidManifest.xml:55:9
+	android:label
+		ADDED from AndroidManifest.xml:55:60
+	android:name
+		ADDED from AndroidManifest.xml:55:19
+activity#com.findittlive.finditt.slidermenu.MyActivity
+ADDED from AndroidManifest.xml:56:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:58:13
+	android:label
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+activity#com.findittlive.finditt.slidermenu.ResetPasswordActivity
+ADDED from AndroidManifest.xml:60:9
+	android:label
+		ADDED from AndroidManifest.xml:60:68
+	android:name
+		ADDED from AndroidManifest.xml:60:19
+activity#com.findittlive.finditt.SplashActivity
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:64:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:65:17
+	android:name
+		ADDED from AndroidManifest.xml:65:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:67:17
+	android:name
+		ADDED from AndroidManifest.xml:67:27
+service#com.findittlive.finditt.receivers.SyncService
+ADDED from AndroidManifest.xml:70:9
+	android:exported
+		ADDED from AndroidManifest.xml:70:56
+	android:name
+		ADDED from AndroidManifest.xml:70:18
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:72:9
+	android:value
+		ADDED from AndroidManifest.xml:72:66
+	android:name
+		ADDED from AndroidManifest.xml:72:20
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:73:9
+	android:value
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:74:13
+activity#com.findittlive.finditt.maps.Map_Activity
+ADDED from AndroidManifest.xml:76:9
+	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:19
+activity#com.google.android.gms.ads.AdActivity
+ADDED from AndroidManifest.xml:80:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:81:13
+	android:theme
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:80:19
+receiver#com.plotprojects.retail.android.PlotBootReceiver
+ADDED from AndroidManifest.xml:84:9
+	android:name
+		ADDED from AndroidManifest.xml:84:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.MY_PACKAGE_REPLACED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.HOME+com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from AndroidManifest.xml:85:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:86:17
+	android:name
+		ADDED from AndroidManifest.xml:86:25
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from AndroidManifest.xml:87:17
+	android:name
+		ADDED from AndroidManifest.xml:87:25
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from AndroidManifest.xml:88:17
+	android:name
+		ADDED from AndroidManifest.xml:88:25
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:89:17
+	android:name
+		ADDED from AndroidManifest.xml:89:25
+category#android.intent.category.HOME
+ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:90:27
+service#com.plotprojects.retail.android.PlotBackgroundService
+ADDED from AndroidManifest.xml:94:9
+	android:process
+		ADDED from AndroidManifest.xml:95:13
+	android:name
+		ADDED from AndroidManifest.xml:94:18
+meta-data#debug
+ADDED from AndroidManifest.xml:96:13
+	android:value
+		ADDED from AndroidManifest.xml:96:45
+	android:name
+		ADDED from AndroidManifest.xml:96:24
+receiver#com.plotprojects.retail.android.OpenUriReceiver
+ADDED from AndroidManifest.xml:99:9
+	android:exported
+		ADDED from AndroidManifest.xml:99:19
+	android:name
+		ADDED from AndroidManifest.xml:99:44
+intent-filter#com.findittlive.finditt.plot.OpenNotification
+ADDED from AndroidManifest.xml:100:13
+action#com.findittlive.finditt.plot.OpenNotification
+ADDED from AndroidManifest.xml:102:17
+	android:name
+		ADDED from AndroidManifest.xml:102:25
+activity#com.findittlive.finditt.News.NewsActivity
+ADDED from AndroidManifest.xml:105:9
+	android:label
+		ADDED from AndroidManifest.xml:106:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:105:19
+activity#com.findittlive.finditt.News.NewsContent
+ADDED from AndroidManifest.xml:108:9
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:109:13
+	android:name
+		ADDED from AndroidManifest.xml:108:19
+activity#com.findittlive.finditt.News.HotActivity
+ADDED from AndroidManifest.xml:110:9
+	android:label
+		ADDED from AndroidManifest.xml:111:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:110:19
+activity#com.findittlive.finditt.News.HotContent
+ADDED from AndroidManifest.xml:113:9
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:114:13
+	android:name
+		ADDED from AndroidManifest.xml:113:19
+service#com.parse.PushService
+ADDED from AndroidManifest.xml:116:9
+	android:name
+		ADDED from AndroidManifest.xml:116:18
+receiver#com.parse.ParseBroadcastReceiver
+ADDED from AndroidManifest.xml:117:9
+	android:name
+		ADDED from AndroidManifest.xml:117:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from AndroidManifest.xml:118:13
+action#android.intent.action.USER_PRESENT
+ADDED from AndroidManifest.xml:120:17
+	android:name
+		ADDED from AndroidManifest.xml:120:25
+receiver#com.parse.ParsePushBroadcastReceiver
+ADDED from AndroidManifest.xml:123:9
+	android:exported
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:123:19
+intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
+ADDED from AndroidManifest.xml:125:13
+action#com.parse.push.intent.RECEIVE
+ADDED from AndroidManifest.xml:126:17
+	android:name
+		ADDED from AndroidManifest.xml:126:25
+action#com.parse.push.intent.DELETE
+ADDED from AndroidManifest.xml:127:17
+	android:name
+		ADDED from AndroidManifest.xml:127:25
+action#com.parse.push.intent.OPEN
+ADDED from AndroidManifest.xml:128:17
+	android:name
+		ADDED from AndroidManifest.xml:128:25
+receiver#com.parse.GcmBroadcastReceiver
+ADDED from AndroidManifest.xml:131:9
+	android:permission
+		ADDED from AndroidManifest.xml:132:13
+	android:name
+		ADDED from AndroidManifest.xml:131:19
+intent-filter#com.findittlive.finditt+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from AndroidManifest.xml:133:9
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:134:9
+	android:name
+		ADDED from AndroidManifest.xml:134:17
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from AndroidManifest.xml:135:9
+	android:name
+		ADDED from AndroidManifest.xml:135:17
+category#com.findittlive.finditt
+ADDED from AndroidManifest.xml:139:13
+	android:name
+		ADDED from AndroidManifest.xml:139:23
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.google.android.gms:play-services:5.0.89:15:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+MERGED from com.daimajia.slider:library:1.1.0:10:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+
+
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
+    packagingOptions {
+        exclude 'mazha.properties'
+    }
+    defaultConfig {
+        applicationId "com.findittlive.finditt"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 6
+        versionName "1.5"
+    }
+    buildTypes {       release {
+          minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    mavenLocal()
+    maven { url 'http://cloudant.github.io/cloudant-sync-eap/repository' }
+    mavenCentral()
+}
+
+
+
+dependencies {
+    compile 'com.parse.bolts:bolts-android:1.1.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/AndEasyLib_v1.5.jar')
+    compile 'com.google.android.gms:play-services:5.+'
+    compile 'com.cloudant:cloudant-sync-datastore-android:0.9.3'
+    compile 'com.cloudant:cloudant-sync-datastore-core:0.9.3'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.0@aar'
+    compile 'com.android.support:support-v4:20.0.0'
+    compile files('libs/Plot_v_1_6_3.jar')
+    compile files('libs/Parse-1.6.0.jar')
+    compile 'com.google.code.findbugs:jsr305:3.0.0'
+}

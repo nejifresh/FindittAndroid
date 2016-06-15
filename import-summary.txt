@@ -1,0 +1,122 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* armeabi-v7a\
+* armeabi-v7a\libnative_rtp_jni_neon.so
+* armeabi-v7a\libnative_rtp_jni_vfp3.so
+* armeabi\
+* armeabi\libnative_rtp_jni.so
+* build.xml
+* gradlew.bat
+* lib-c2callsdkres.iml
+* x86\
+* x86\libnative_rtp_jni.so
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.0.jar => com.google.code.gson:gson:2.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.0.jar => version 2.0 in com.google.code.gson:gson:2.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => libc2callsdkres\src\main\AndroidManifest.xml
+* libs\amazon-device-messaging-1.0.1.jar => libc2callsdkres\libs\amazon-device-messaging-1.0.1.jar
+* libs\armeabi-v7a\libg723_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libg723_jni.so
+* libs\armeabi-v7a\libgnustl_shared.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libgnustl_shared.so
+* libs\armeabi-v7a\libgsm_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libgsm_jni.so
+* libs\armeabi-v7a\libilbc_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libilbc_jni.so
+* libs\armeabi-v7a\libnative_audio_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_audio_jni.so
+* libs\armeabi-v7a\libnative_audio_jni_neon.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_audio_jni_neon.so
+* libs\armeabi-v7a\libnative_audio_jni_vfp3.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_audio_jni_vfp3.so
+* libs\armeabi-v7a\libnative_codecs.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_codecs.so
+* libs\armeabi-v7a\libnative_cpufeatures_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_cpufeatures_jni.so
+* libs\armeabi-v7a\libnative_rtp_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_rtp_jni.so
+* libs\armeabi-v7a\libnative_rtp_jni_neon.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_rtp_jni_neon.so
+* libs\armeabi-v7a\libnative_rtp_jni_vfp3.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_rtp_jni_vfp3.so
+* libs\armeabi-v7a\libnative_video_arm7_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_video_arm7_jni.so
+* libs\armeabi-v7a\libnative_video_arm7_neon_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libnative_video_arm7_neon_jni.so
+* libs\armeabi-v7a\libspeex_jni.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libspeex_jni.so
+* libs\armeabi-v7a\libwebrtc_audio_preprocessing.so => libc2callsdkres\src\main\jniLibs\armeabi-v7a\libwebrtc_audio_preprocessing.so
+* libs\armeabi\libg723_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libg723_jni.so
+* libs\armeabi\libgnustl_shared.so => libc2callsdkres\src\main\jniLibs\armeabi\libgnustl_shared.so
+* libs\armeabi\libgsm_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libgsm_jni.so
+* libs\armeabi\libilbc_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libilbc_jni.so
+* libs\armeabi\libnative_audio_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libnative_audio_jni.so
+* libs\armeabi\libnative_codecs.so => libc2callsdkres\src\main\jniLibs\armeabi\libnative_codecs.so
+* libs\armeabi\libnative_cpufeatures_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libnative_cpufeatures_jni.so
+* libs\armeabi\libnative_rtp_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libnative_rtp_jni.so
+* libs\armeabi\libnative_video_arm5_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libnative_video_arm5_jni.so
+* libs\armeabi\libspeex_jni.so => libc2callsdkres\src\main\jniLibs\armeabi\libspeex_jni.so
+* libs\armeabi\libwebrtc_audio_preprocessing.so => libc2callsdkres\src\main\jniLibs\armeabi\libwebrtc_audio_preprocessing.so
+* libs\aws-android-sdk-1.6.0_pg.jar => libc2callsdkres\libs\aws-android-sdk-1.6.0_pg.jar
+* libs\flurry_3.2.1_pg.jar => libc2callsdkres\libs\flurry_3.2.1_pg.jar
+* libs\lib-c2callsdk_pg.jar => libc2callsdkres\libs\lib-c2callsdk_pg.jar
+* libs\lib_sc_extra.jar => libc2callsdkres\libs\lib_sc_extra.jar
+* libs\libsrc-androidlog.jar => libc2callsdkres\libs\libsrc-androidlog.jar
+* libs\libsrc-c2callclient-android.jar => libc2callsdkres\libs\libsrc-c2callclient-android.jar
+* libs\libsrc-contactapi.jar => libc2callsdkres\libs\libsrc-contactapi.jar
+* libs\libsrc-cpufeatures.jar => libc2callsdkres\libs\libsrc-cpufeatures.jar
+* libs\libsrc-facebook-android.jar => libc2callsdkres\libs\libsrc-facebook-android.jar
+* libs\libsrc-nativeaudio.jar => libc2callsdkres\libs\libsrc-nativeaudio.jar
+* libs\libsrc-nativecodecs.jar => libc2callsdkres\libs\libsrc-nativecodecs.jar
+* libs\libsrc-nativertp.jar => libc2callsdkres\libs\libsrc-nativertp.jar
+* libs\libsrc-nativevideo.jar => libc2callsdkres\libs\libsrc-nativevideo.jar
+* libs\libsrc-sipapplet-android.jar => libc2callsdkres\libs\libsrc-sipapplet-android.jar
+* libs\simple-xml-2.7.1.jar => libc2callsdkres\libs\simple-xml-2.7.1.jar
+* libs\x86\libg723_jni.so => libc2callsdkres\src\main\jniLibs\x86\libg723_jni.so
+* libs\x86\libgnustl_shared.so => libc2callsdkres\src\main\jniLibs\x86\libgnustl_shared.so
+* libs\x86\libgsm_jni.so => libc2callsdkres\src\main\jniLibs\x86\libgsm_jni.so
+* libs\x86\libilbc_jni.so => libc2callsdkres\src\main\jniLibs\x86\libilbc_jni.so
+* libs\x86\libnative_audio_jni.so => libc2callsdkres\src\main\jniLibs\x86\libnative_audio_jni.so
+* libs\x86\libnative_codecs.so => libc2callsdkres\src\main\jniLibs\x86\libnative_codecs.so
+* libs\x86\libnative_cpufeatures_jni.so => libc2callsdkres\src\main\jniLibs\x86\libnative_cpufeatures_jni.so
+* libs\x86\libnative_rtp_jni.so => libc2callsdkres\src\main\jniLibs\x86\libnative_rtp_jni.so
+* libs\x86\libnative_video_x86_jni.so => libc2callsdkres\src\main\jniLibs\x86\libnative_video_x86_jni.so
+* libs\x86\libspeex_jni.so => libc2callsdkres\src\main\jniLibs\x86\libspeex_jni.so
+* libs\x86\libwebrtc_audio_preprocessing.so => libc2callsdkres\src\main\jniLibs\x86\libwebrtc_audio_preprocessing.so
+* lint.xml => libc2callsdkres\lint.xml
+* res\ => libc2callsdkres\src\main\res\
+* src\ => libc2callsdkres\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

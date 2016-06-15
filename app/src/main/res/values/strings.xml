@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finditt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Sync</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="search_text">What are you searching for?</string>
+    <string name="where_text">Near to: </string>
+    <string name="pick_location">Pick</string>
+    <string name="search_click">Finditt</string>
+    <string name="google_maps_key">AIzaSyB6gKiELAm9CKrlPqqebCZ9cISAjopA_e0</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="search_items">
+        <item >Search..</item>
+        <item >Top Listings</item>
+        <item >My Favourites</item>
+        <item >Events</item>
+    </string-array>
+
+    <string-array name="lounge_items">
+        <item >Find People</item>
+        <item >My Buddies</item>
+        <item >Lets Chat</item>
+        <item >Video Calls</item>
+
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8274996670784488/1251508257</string>
+
+    // Friend Details
+    <string name="frd_title">Details</string>
+    <string name="frd_video_call">Video Call</string>
+    <string name="frd_audio_call">Voice Call</string>
+    <string name="frd_chat">Chat</string>
+    <string name="frd_mobile">MOBILE</string>
+
+    <string-array name="twing_items">
+        <item >What\'s Hot</item>
+        <item >Latest News</item>
+        <item >TV Shows</item>
+        <item >Radio</item>
+        <item >Music</item>
+        <item >Videos</item>
+        <item >Books</item>
+
+            </string-array>
+    // Landing
+    <string name="lnd_connect_with_facebook">Connect with Facebook</string>
+    <string name="lnd_have_account">Already have an account?</string>
+    <string name="lnd_sign_up">Sign Up with Email</string>
+    <string name="lnd_no_app_version">Couldn\'t get app version</string>
+    <string name="lnd_version">v. %1$s</string>
+
+    // Dialog
+    <string name="dlg_message">Message</string>
+    <string name="dlg_hint_message">Type a message</string>
+    <string name="dlg_no_chats">Oops…\nYou don\'t have any chats, \ntap \'+\' icon to create new group chat \nor go in private chat \nvia Friends Details page"</string>
+
+    // Group Dialog
+    <string name="gdl_ctx_menu_reply">Reply</string>
+    <string name="gdl_ctx_menu_prv_message">Private Message</string>
+    <string name="gdl_ctx_menu_video_call">Video Call</string>
+    <string name="gdl_ctx_menu_profile">View Profile</string>
+
+    // Group Dialog Details
+    <string name="gdd_title">Group Details</string>
+    <string name="gdd_leave_group">Leave group</string>
+    <string name="gdd_participants">%1$d participants</string>
+    <string name="gdd_online_participants">%1$d/%2$d online</string>
+    <string name="gdd_name_not_entered">Please fill group name</string>
+    <string name="gdd_all_friends_is_in_group">You can\'t add new friend, because all existing friends are added in this group chat</string>
+
+    // New Dialog
+    <string name="ndl_title">New Group Chat</string>
+    <string name="ndl_ac_mode_title">Group chat participants:</string>
+    <string name="ndl_no_friends_for_new_chat">You don\'t have any Friends for creating New Chat</string>
+
+    // Preferences
+    <string name="pref_title_profile_and_details">Profile and details</string>
+    <string name="pref_title_presence">Presence</string>
+    <string name="pref_title_push_notifications">Push Notifications</string>
+    <string name="pref_title_media">Media</string>
+
+    // Settings
+    <string name="stn_profile">Profile</string>
+    <string name="stn_logout">Log Out</string>
+    <string name="stn_change_password">Change Password</string>
+    <string name="stn_push_notifivation">Push Notification</string>
+    <string name="stn_version">Version %1$s</string>
+
+    // Change Password
+    <string name="cpw_change_password_title">Change Password</string>
+    <string name="cpw_change">Change</string>
+    <string name="cpw_old_password">Old Password</string>
+    <string name="cpw_new_password">New Password</string>
+    <string name="cpw_not_old_password_field_entered">Please enter old password</string>
+    <string name="cpw_not_new_password_field_entered">Please enter new password</string>
+
+    // Profile
+    <string name="prf_full_name">Full Name</string>
+    <string name="prf_change">Change</string>
+    <string name="prf_title">Profile</string>
+    <string name="prf_email">Email</string>
+    <string name="prf_phone">Phone</string>
+    <string name="prf_status_message">Status Message</string>
+    <string name="prf_done">Done</string>
+
+    // Add Friends To Group Dialog
+    <string name="afg_title">Add Friends</string>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    // Invite Friends
+    <string name="inf_header_label">Let your other friends know about \n Q-municate by sending them private invitations</string>
+    <string name="inf_select_from_facebook">From Facebook</string>
+    <string name="inf_select_from_contacts">From Contacts</string>
+    <string name="inf_from_facebook">(invite via Facebook)</string>
+    <string name="inf_from_contacts">(invite via Email)</string>
+    <string name="inf_send">Send</string>
+    <string name="inf_choose_email_provider">Choose an email provider:</string>
+    <string name="inf_subject_of_invitation">Q-municate</string>
+    <string name="inf_body_of_invitation">Dear friend, use Q-municate application to reach me!\nDownload it here: http://q-municate.com/</string>
+    <string name="inf_url_to_facebook_avatar">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="inf_fb_wall_param_name">Q-municate</string>
+    <string name="inf_fb_wall_param_description">Dear friend, use Q-municate application to reach me!\nDownload it here: http://q-municate.com/</string>
+    <string name="inf_fb_wall_param_link">http://q-municate.com/</string>
+    <string name="inf_fb_wall_param_picture">http://files.quickblox.com/ic_launcher.png</string>
+    <string name="inf_fb_wall_param_place">155021662189</string>
+    <string name="inf_fb_request_canceled">Request cancelled</string>
+
+    // Dialog Messages
+    <string name="dlg_click_back_again">Please click BACK again to exit</string>
+    <string name="dlg_wait_please">Please, wait</string>
+    <string name="dlg_not_all_fields_entered">Please fill all empty input fields</string>
+    <string name="dlg_not_fullname_field_entered">Please enter fullname</string>
+    <string name="dlg_not_email_field_entered">Please enter email</string>
+    <string name="dlg_not_password_field_entered">Please enter password</string>
+    <string name="dlg_passwords_not_equal">New password and confirmation are not equal</string>
+    <string name="dlg_old_password_wrong">Wrong old password</string>
+    <string name="dlg_empty_email">Email can\'t be empty</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_user_updated">User saved</string>
+    <string name="dlg_logout">Logout</string>
+    <string name="dlg_confirm">Are you sure?</string>
+    <string name="dlg_remove_user">Remove user</string>
+    <string name="dlg_password_changed">Password changed</string>
+    <string name="dlg_no_facebook_friends">No Facebook friends</string>
+    <string name="dlg_no_contacts_friends">No Contacts friends</string>
+    <string name="dlg_no_friends">No friends</string>
+    <string name="dlg_success_posted_to_facebook">Post was added to wall</string>
+    <string name="dlg_success_request_facebook">Request sent</string>
+    <string name="dlg_no_friends_selected">Please, select some Friends for invite!</string>
+    <string name="dlg_friend_removed">Friend is removed</string>
+    <string name="dlg_get_file_failed">Failed to get file from gallery</string>
+    <string name="dlg_no_friends_for_import">There are no friends in Q-municate app</string>
+    <string name="dlg_wrong_signaling">Can\'t perform call. Problem with signaling</string>
+    <string name="dlg_leave_group">Leave Group</string>
+    <string name="dlg_offline_call"> %1$s is calling you !</string>
+    <string name="dlg_attached_last_message">Attachment</string>
+    <string name="dlg_no_message_yet">No message yet</string>
+    <string name="dlg_fail_create_groupchat">Errors occurred while creating group chat! Please, try later</string>
+    <string name="dlg_fail_create_chat">Errors occurred while creating chat! Please, try later</string>
+    <string name="dlg_fail_send_msg">Errors occurred while sending msg! Please, try later</string>
+    <string name="dlg_fail_connection">Sorry, connection lost. It will be reestablished when the Internet will be available.</string>
+    <string name="dlg_fail_upload_attach">Errors occurred during loading file</string>
+    <string name="dlg_fail_rest_login">Couldn\'t authorize on server. Please check your credentials</string>
+    <string name="dlg_force_relogin_on_token_required">Token error is occured in application. Relogin will be executed now</string>
+    <string name="dlg_refresh_session">QB Session expired. Update session will be executed now</string>
+    <string name="videochat_init_fail">Unfortunately, call was closed! It is impossible to initialize multimedia resources on your device</string>
+    <string name="dlg_microphone_muted">Please, pay attention microphone is muted now</string>
+
+    // Facebook
+    <string name="facebook_exception">Facebook exception: </string>
+
+    //Calls
+    <string name="cll_incoming_call_audio">Incoming Call</string>
+    <string name="cll_incoming_call_video">Incoming Video Call</string>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_star</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_peeps</item>
+        <item>@drawable/ic_buddies</item>
+        <item>@drawable/ic_chat</item>
+        <item>@drawable/ic_news</item>
+        <item>@drawable/ic_tvshows</item>
+        <item>@drawable/ic_radio</item>
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string-array name="categories">
+        <item>ATMs</item>
+        <item>Bars</item>
+        <item>Hotels</item>
+        <item>Buy a Car</item>
+        <item>Bookshops</item>
+        <item>Call a Cab</item>
+        <item>Clinics</item>
+        <item>Churches</item>
+        <item>Car Wash</item>
+        <item>Cloth Shops</item>
+        <item>Cosmetics</item>
+        <item>City Guides</item>
+        <item>Restaurants</item>
+        <item>Discounts Shop</item>
+        <item>Dentist Clinic</item>
+        <item>Computer Shops</item>
+        <item>Eye Clinic</item>
+        <item>Eateries</item>
+        <item>Electronic Shop</item>
+        <item>Electronic Devices</item>
+        <item>Emergency Centres</item>
+        <item>Fashion Accessories</item>
+        <item>Furniture Shops</item>
+        <item>Facial Makeup</item>
+        <item>Fashion Boutiques</item>
+        <item>Hospitals</item>
+        <item>Mosques</item>
+        <item>Hangouts</item>
+        <item>House Helps</item>
+        <item>Ice Blocks</item>
+        <item>Home Delivery Services</item>
+        <item>Supermarkets</item>
+        <item>Pharmacy</item>
+        <item>Mechanics</item>
+        <item>Lounges</item>
+        <item>Legal Services</item>
+        <item>Special Events</item>
+        <item>Jewelry Shops</item>
+        <item>Local Delicacies</item>
+        <item>Hair Saloons</item>
+        <item>Police Stations</item>
+        <item>Mechanics</item>
+        <item>Barber Shops</item>
+        <item>Learning Centres</item>
+        <item>Men Clothings</item>
+        <item>Auto Repairs</item>
+        <item>Land for Sale</item>
+        <item>Night Clubs</item>
+        <item>Bags</item>
+        <item>Schools</item>
+        <item>Local Delicacies</item>
+        <item>Shoes</item>
+        <item>Bars and Pubs</item>
+        <item>To let (Self Contained)</item>
+        <item>To let (1 Bed Room flat)</item>
+        <item>To Let 2 Bed Room Flat )</item>
+        <item>To Let 3 Bed Room Flat )</item>
+        <item>To Let others</item>
+        <item>Wine Bars</item>
+        <item>Wine Shops</item>
+        <item>Women Clothing</item>
+        <item>Viewing Centres</item>
+        <item>Job Vacancies</item>
+        <item>Events Centres</item>
+        <item>Beauty Products</item>
+        <item>Photography</item>
+        <item>Grocery Shops</item>
+        <item>Bridal Shops</item>
+        <item>Events Planners</item>
+        <item>Baby Shops</item>
+        <item>Maternity Items</item>
+        <item>Christain Fellowship</item>
+        <item>Prayer Groups</item>
+        <item>Dry cleaners</item>
+        <item>Laundry Services</item>
+        <item>Bakerys</item>
+        <item>Interior Designers</item>
+        <item>Sharwama Huts</item>
+        <item>Movies</item>
+        <item>Wedding Planners</item>
+        <item>Catering Services</item>
+        <item>DJ Services</item>
+        <item>Comedians</item>
+        <item>Ushering Services</item>
+        <item>Food Items</item>
+        <item>Local News</item>
+        <item>Latest Gossip</item>
+        <item>Entertainment</item>
+        <item>TV Programmes</item>
+        <item>Cinema</item>
+        <item>Zoo</item>
+        <item>Amala</item>
+        <item>EdikangIkong</item>
+        <item>Carnivals</item>
+        <item>Phone Repair</item>
+        <item>Fire Service</item>
+        <item>Emergency Services</item>
+        <item>Army Barracks</item>
+        <item>Mobile Devices</item>
+        <item>Ice Cream</item>
+        <item>Karaoke Bars</item>
+        <item>Airline Tickets</item>
+        <item>Flights</item>
+        <item>Flight Booking</item>
+        <item>Car Shops</item>
+        <item>Banks</item>
+        <item>Phones</item>
+        <item>Universities</item>
+        <item>Polytechnics</item>
+        <item>Nursery Schools</item>
+        <item>Primary Schools</item>
+        <item>Secondary Schools</item>
+        <item>Kindergaten</item>
+        <item>Breaking News</item>
+        <item>Shoe Mender</item>
+        <item>Shoe Maker</item>
+        <item>Sweets</item>
+        <item>Suya</item>
+        <item>Computer Training</item>
+        <item>IT Training</item>
+        <item>Software Developers</item>
+        <item>Website Designers</item>
+        <item>Programmers</item>
+        <item>People Around Me</item>
+        <item>French Lessons</item>
+        <item>Spanish Lessons</item>
+        <item>Italian Lessons</item>
+        <item>Chinese Lessons</item>
+        <item>Korean Lessons</item>
+        <item>Japanese Lessons</item>
+        <item>Lesson Teacher</item>
+        <item>Teachers</item>
+        <item>Embassy</item>
+        <item>Karate Training</item>
+        <item>Taekwondo Training</item>
+        <item>KungFu Training</item>
+        <item>Action Movies</item>
+        <item>DSTV Centers</item>
+        <item>MTN Service Centers</item>
+        <item>Etisalat Service Centers</item>
+        <item>Glo Service Centers</item>
+        <item>Airtel Service Centers</item>
+        <item>Visafone Service Centers</item>
+        <item>4G Network Providers</item>
+        <item>3G Network Providers</item>
+        <item>Yam</item>
+        <item>Kilishi</item>
+        <item>Nkwobi</item>
+        <item>Isi Ewu</item>
+        <item>Models</item>
+        <item>Modelling Agency</item>
+        <item>Female Models</item>
+        <item>Male Models</item>
+        <item>Victoria Secret</item>
+        <item>Loungerie</item>
+        <item>Goldsmith</item>
+        <item>Watches</item>
+        <item>Men Shirts</item>
+        <item>Men Shoes</item>
+        <item>Pants</item>
+        <item>Troussers</item>
+        <item>Key Cutting</item>
+        <item>Vulcanizers</item>
+        <item>Auto Mechanic</item>
+        <item>Auto Electrician</item>
+        <item>Electrician</item>
+        <item>Tailoring Services</item>
+        <item>Suits</item>
+        <item>Fashion Designer</item>
+        <item>Graphics Designer</item>
+        <item>Sports Shop</item>
+        <item>Shipping Services</item>
+        <item>Construction Services</item>
+        <item>Haulage Services</item>
+        <item>Trucking Services</item>
+        <item>MC Services</item>
+        <item>Wedding Planners</item>
+        <item>Weddings</item>
+        <item>Events</item>
+        <item>Tourist Attractions</item>
+        <item>Attractions</item>
+        <item>Sharwama Huts</item>
+        <item>Fine Girls</item>
+        <item>Fine Models</item>
+        <item>Dating</item>
+        <item>Adult Movies</item>
+        <item>Nigerian Movies</item>
+        <item>African Movies</item>
+        <item>Business Consultants</item>
+        <item>Filling Stations</item>
+        <item>Fuel Stations</item>
+        <item>Gas Plants</item>
+        <item>Cooking Gas</item>
+        <item>Kitchen Items</item>
+        <item>Spare Parts</item>
+        <item>Auto Spare Parts</item>
+        <item>Generator Parts</item>
+        <item>Generators</item>
+        <item>Lawyers</item>
+        <item>Law Firms</item>
+        <item>Law Books</item>
+        <item>Medical Doctors</item>
+        <item>Medical Books</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Engineering Books</item>
+        <item>Polling Units</item>
+        <item>Visa Services</item>
+        <item>Travel Agencies</item>
+        <item>Tourism Services</item>
+        <item>Health Centres</item>
+        <item>Maternity Clinics</item>
+        <item>Laundry Services</item>
+        <item>Photography</item>
+        <item>Music Studios</item>
+        <item>Recording Studios</item>
+        <item>Psychiatric Hospital</item>
+        <item>Language Tutor</item>
+        <item>Pounded Yam</item>
+        <item>Mystical Organizations</item>
+        <item>Religious Centres</item>
+        <item>Catholic Churches</item>
+        <item>Camera Men</item>
+        <item>Coffee</item>
+        <item>Breakfast</item>
+        <item>Bed and Breakfast</item>
+        <item>News</item>
+        <item>Internet Service Provider</item>
+        <item>Women Clothes</item>
+        <item>Taxi Services</item>
+        <item>Amusement Parks</item>
+        <item>Air Conditioning</item>
+        <item>Architect</item>
+        <item>Lawyer</item>
+        <item>Surveyor</item>
+        <item>Accountant</item>
+        <item>Stock Broker</item>
+        <item>Painter</item>
+        <item>Carpenter</item>
+        <item>Security Guard</item>
+        <item>Driver</item>
+        <item>Charity Homes</item>
+        <item>Manual Labourers</item>
+        <item>Dermatologist</item>
+        <item>Gym</item>
+        <item>Spa</item>
+        <item>Cement Store</item>
+        <item>Cement Warehouse</item>
+        <item>Tatoo Artists</item>
+        <item>Fine Artist</item>
+        <item>Hair Extensions and Accessories</item>
+        <item>AC Repairer</item>
+        <item>Suya Spots</item>
+        <item>Veterinary Services</item>
+        <item>Poultry and Livestock</item>
+        <item>Livestock Feeds</item>
+        <item>Abattoirs</item>
+        <item>Aquarium Services</item>
+        <item>Mortuary Services</item>
+        <item>Gift Shops</item>
+        <item>Library</item>
+        <item>Cyber Cafe</item>
+        <item>Musician</item>
+        <item>Artist Performer</item>
+        <item>Welders</item>
+        <item>Tiling and Ceramics</item>
+        <item>Building Materials</item>
+        <item>Lifestyle Shops</item>
+        <item>Recreational Parks</item>
+        <item>Zoo</item>
+        <item>Rental Services</item>
+        <item>Stadium</item>
+        <item>Museum</item>
+        <item>Markets</item>
+        <item>Oil and Gas Services</item>
+        <item>Engineering Services</item>
+        <item>Manufacturing Services</item>
+        <item>Baby Sitters</item>
+        <item>Government Agencies</item>
+        <item>Geological Services</item>
+        <item>Borehole Drilling</item>
+        <item>Interior Decorators</item>
+        <item>Construction Companies</item>
+        <item>Funeral Services</item>
+        <item>Nursing Services</item>
+        <item>Honey Sales</item>
+        <item>Bureau De Change</item>
+        <item>Printing Press</item>
+        <item>Insurance Companies</item>
+        <item>Health Products</item>
+        <item>Trevo Products</item>
+        <item>Forever Living Products</item>
+        <item>Tianshi Products</item>
+        <item>Escort Services</item>
+        <item>Security Companies</item>
+
+    </string-array>
+
+</resources>

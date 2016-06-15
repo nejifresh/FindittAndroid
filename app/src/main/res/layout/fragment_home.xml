@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        />
+
+
+    <ImageView
+
+        android:src="@drawable/findme"
+        android:id="@+id/image1"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/slider"
+    android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvWhat"
+        android:text="@string/search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_below="@id/tvWhat"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <AutoCompleteTextView
+
+        android:id="@+id/AutoCompleteTextView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:completionThreshold="1"
+        />
+    <Button
+        android:drawableLeft="@drawable/ic_search"
+        android:text="Select"
+
+        android:id="@+id/btnSelect"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/layout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvWhere"
+        android:text="@string/where_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ <LinearLayout
+     android:id="@+id/layout"
+     android:layout_below="@id/tvWhere"
+     android:layout_marginTop="10dp"
+     android:orientation="horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+     <EditText
+         android:layout_below="@id/tvWhere"
+         android:id="@+id/nearToText"
+         android:layout_width="230dp"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:textSize="20sp"
+         android:textColor="@android:color/holo_red_dark"
+         />
+     <Button
+         android:drawableLeft="@drawable/location"
+         android:text="@string/pick_location"
+         android:id="@+id/btnPickLocation"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@id/layout"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tvRadius"
+            android:text="Search Radius (km)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_below="@id/layout"
+            android:id="@+id/txtradius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="100"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btnClick"
+        android:text="@string/search_click"
+        android:layout_below="@id/layout2"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+
+</RelativeLayout>
+    </ScrollView>

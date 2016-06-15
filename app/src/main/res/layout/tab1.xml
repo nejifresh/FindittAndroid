@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingBottom="10dp"
+    android:layout_height="match_parent">
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:visibility="visible"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/titletext"
+        android:text="Cover Stories"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+      android:scaleType="centerCrop"
+        android:visibility="visible"
+android:src="@drawable/ic_launcher"
+        android:layout_marginTop="10dp"
+       android:layout_gravity="fill_horizontal"
+        android:id="@+id/imageLoad"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Description: "
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvDesc"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:text="Address: "
+           android:layout_marginLeft="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:textStyle="bold"
+           android:id="@+id/tvAddy"
+           android:layout_marginLeft="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Location: "
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvLoc"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/voice_call_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_general_selector"
+        android:clickable="true"
+        android:onClick="callNumber"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/voicelinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_general_selector"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_friends_call" />
+            <View
+                android:layout_width="@dimen/divider_width"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/voicelinear"
+            android:layout_centerVertical="true"
+            android:text="@string/frd_audio_call"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <include layout="@layout/view_separator_gray" />
+
+
+    <RelativeLayout
+        android:id="@+id/chat_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_general_selector"
+        android:clickable="true"
+        android:onClick="sendSMS"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:id="@+id/chatlinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_friends_chat" />
+            <View
+                android:layout_width="@dimen/divider_width"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+     android:layout_toRightOf="@id/chatlinear"
+            android:layout_centerVertical="true"
+            android:text="SMS Chat"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/view_separator_gray" />
+
+    <RelativeLayout
+        android:id="@+id/video_call_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_general_selector"
+        android:clickable="true"
+        android:onClick="showDirections"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:visibility="visible"
+            android:paddingLeft="20dp"
+            android:id="@+id/videolinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_general_selector"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_action_directions" />
+            <View
+                android:visibility="visible"
+                android:layout_width="@dimen/divider_width"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+        <TextView
+            android:visibility="visible"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/videolinear"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Get Directions"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <include layout="@layout/view_separator_gray" />
+
+    <RelativeLayout
+
+        android:id="@+id/hidden"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_general_selector"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:id="@+id/videohidden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_general_selector"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_action_directions" />
+            <View
+                android:visibility="gone"
+                android:layout_width="@dimen/divider_width"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+
+            android:textColor="@android:color/holo_red_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Get Directions"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <include layout="@layout/view_separator_gray" />
+
+</LinearLayout>
+
+</ScrollView>

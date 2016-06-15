@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:id="@android:id/tabhost">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+
+
+</LinearLayout>
+<com.google.android.gms.ads.AdView
+android:id="@+id/adView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="bottom"
+android:layout_alignParentBottom="true"
+ads:adSize="BANNER"
+ads:adUnitId="@string/banner_ad_unit_id">
+</com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
